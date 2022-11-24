@@ -13,6 +13,12 @@
     font-weight: 300;
 }
 
+.loader_text{
+    color: #3b7ffc;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .movies{
     display: grid;
     grid-template-columns: repeat(2, minmax(400px,1fr));

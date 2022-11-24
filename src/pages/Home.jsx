@@ -20,7 +20,7 @@ export default function Home() {
         <section className={styles.container}> 
             {loading ? 
             <div className={styles.loader}>
-                <span className={styles.loader_text}>'Loading...'</span>
+                <span className={styles.loader_text}>Loading...</span>
             </div> : 
             <div className={styles.movies}>
                 {movies.map( (movie) => (
